@@ -1,23 +1,27 @@
-# lerna root에서 각 Packages 제어하기
+# lerna-root
 
 ## Usage
 
-1) lerna init
+1\) lerna init
+
 ```bash
 lerna init -i
 ```
 
-2) package 만들기
+2\) package 만들기
+
 ```bash
 cd ./packages && mkdir test
 ```
 
-3) test npm init
+3\) test npm init
+
 ```bash
 npm init
 ```
 
-4) lerna link convert
+4\) lerna link convert
+
 ```bash
 # 1. lerna bootstrap
 lerna bootstrap
@@ -27,11 +31,13 @@ lerna link convert
 lerna bootstrap
 ```
 
-5) file 확인
-```js
+5\) file 확인
+
+```javascript
 {
   "dependencies": {
     "test": "file:packages/test"
   }
 }
 ```
+

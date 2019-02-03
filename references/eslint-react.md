@@ -1,6 +1,6 @@
-# eslint airbnb + react style
+# eslint-react
 
-```js
+```javascript
 {
   "env": {
     "es6": true,
@@ -108,3 +108,4 @@
   }
 }
 ```
+
