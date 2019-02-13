@@ -1,7 +1,7 @@
 # Table of contents
 
 * [README](README.md)
-* [references](references/README.md)
+* [PR template 만들기](references/README.md)
   * [lerna package uninstall](references/lerna-package-uninstall.md)
   * [eslint-react](references/eslint-react.md)
   * [lerna](references/lerna/README.md)
